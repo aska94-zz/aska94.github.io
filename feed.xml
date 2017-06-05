@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-05T16:11:57+00:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-05T16:20:39+00:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Hello_world</title><link href="https://aska94.github.io/blog/2017/06/04/hello_world" rel="alternate" type="text/html" title="Hello_world" /><published>2017-06-04T00:00:00+00:00</published><updated>2017-06-04T00:00:00+00:00</updated><id>https://aska94.github.io/blog/2017/06/04/hello_world</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/04/hello_world">&lt;hr /&gt;
+&lt;p&gt;title: “Hello World”
+date: 2017-06-04 22:00:00 +0000
+tags: blog jekyll github-pages
+—&lt;/p&gt;
+
+&lt;p&gt;Test article.&lt;/p&gt;</content><author><name>Kisoo Park</name></author><summary type="html">title: “Hello World” date: 2017-06-04 22:00:00 +0000 tags: blog jekyll github-pages —</summary></entry></feed>
