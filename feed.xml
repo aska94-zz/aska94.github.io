@@ -1,11 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-06T13:28:14+09:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Test2</title><link href="https://aska94.github.io/blog/2017/06/06/test2" rel="alternate" type="text/html" title="Test2" /><published>2017-06-06T00:00:00+09:00</published><updated>2017-06-06T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/06/test2</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/06/test2">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: Test 2nd writing.
-tags: jekyll blog test
-—&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-06T14:51:07+09:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>Collections of Test Codes</subtitle><author><name>Kisoo Park</name><uri>https://aska94.github.io</uri></author><entry><title type="html">logs while setup blog on github.io with Minimal mistake theme</title><link href="https://aska94.github.io/blog/2017/06/06/setup-blog-with-minimal-mistake" rel="alternate" type="text/html" title="logs while setup blog on github.io with Minimal mistake theme" /><published>2017-06-06T00:00:00+09:00</published><updated>2017-06-06T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/06/setup-blog-with-minimal-mistake</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/06/setup-blog-with-minimal-mistake">&lt;p&gt;Setup logs&lt;/p&gt;
 
-&lt;p&gt;ok. It’s 2nd writing. 
-can you see it?&lt;/p&gt;</content><author><name>Kisoo Park</name></author><summary type="html">layout: post title: Test 2nd writing. tags: jekyll blog test —</summary></entry><entry><title type="html">Hello world!</title><link href="https://aska94.github.io/blog/2017/06/04/hello_world" rel="alternate" type="text/html" title="Hello world!" /><published>2017-06-04T00:00:00+09:00</published><updated>2017-06-04T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/04/hello_world</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/04/hello_world">&lt;p&gt;Test article.&lt;/p&gt;
+&lt;p&gt;들어가며&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;유행은 좀 지났지만 어쨌든 개발자 나부랭이로써 github.io 에 개발블로그를 하나 만들어보고 싶었다.&lt;/li&gt;
+  &lt;li&gt;회사 정책상 그간 github은 못썼지만, 이제 
+쓰게 해준다니 열심히 써보자.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;준비&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;github.com 의 문서를 읽어보았다.&lt;/li&gt;
+  &lt;li&gt;github.io 블로그 만들기 따위로 검색&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;실행&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;github.com 에 블로그를 만들기 위해선 [username].github.io 라는 이름의 public repository 가 필요하다.
+    &lt;ul&gt;
+      &lt;li&gt;GitHub Pages 설명 https://pages.github.com/&lt;br /&gt;
+이 repository 의 Master branch 에 내용물을 올려놓으면 웹페이지로 동작한다&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;index.html 만 올려놓기엔 좀 그러니 제공되는 테마를 써보자.&lt;br /&gt;
+repository setting &amp;gt; GitHub Pages 항목을 보면 Theme chooser 라고 Jekyll theme 를 고를수 있다. 
+그런데 들어가보면 theme 가 12 개 달랑 있다.&lt;/p&gt;
+
+    &lt;p&gt;2-1 jekyll theme 라는 걸 지원한다. 
+   그럼 jeykyll 이 뭔지 알아본다&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Jekyll site : https://jekyllrb.com/&lt;/li&gt;
+      &lt;li&gt;Jekyll themes : http://jekyllthemes.org/&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;2-2 minimal mistake theme 를 선택해보았다.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;minimal mistake : https://mmistakes.github.io/minimal-mistakes/&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;2-3 하라는 대로 따라한다. 참쉽죠? ~_~&lt;br /&gt;
+  … 쉽긴 개뿔이.&lt;br /&gt;
+  10년만에 홈페이지를 건드리려니 모르는 용어투성이라 이해하기 어렵다.&lt;/p&gt;
+
+    &lt;p&gt;2-4 추가 compoenent 설정&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;사이트 통계 : google universal 을 붙여보았다.&lt;/li&gt;
+      &lt;li&gt;SEO :  short for search engine optimization 인듯. 필요없어보여 안했음.&lt;/li&gt;
+      &lt;li&gt;comment : 여러가지 시스템이 있지만. 많이 쓰는거 같은 Disqus 를 적용했다.&lt;/li&gt;
+      &lt;li&gt;disqus : https://disqus.com/ 사이트 가입하고 short id 를 얻어서 적용하면 된다&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;jekylll 문서를 읽다보면, 각종 plugin 인이 github.io 에서는 안된다는 걸 알수 있다. 방법은 local 에서 빌드해서 넣든지, 아니면 다른 site 에서 만들어 넣든지. 보통 많이 쓰는 travis-ci.org 를 써서 연결해 보았다.&lt;/p&gt;
+
+    &lt;p&gt;3-1 travis-ci 사이트에 가입하고, github.com 과 연결한다. github.io repository 에서 travis-ci 를 사용하도록 한다&lt;/p&gt;
+
+    &lt;p&gt;3-2 github.com 의 profile setting 페이지에서 Key 값을 가져다 travis 의 secure 값을 만들어낸다. 이유는 그렇게 안하면 key 값이 노출돼서 암호화가 필요하다.&lt;/p&gt;
+
+    &lt;p&gt;3-3 travis secure 를 만들려면 Local 에 실행파일을 설치해야 한다. repository 별로 secure 값이 다르므로, repository 를 재생성한다든지 하면 다시 만들어야 된다&lt;/p&gt;
+
+    &lt;p&gt;3-4 travis 세팅을 하고 나면 repository 에 파일을 올려야 하는데, source branch 를 만들어 업로드하고, repository setting의 Branch 항목에서 source 를 default 로 설정한다.&lt;br /&gt;
+ 이렇게 하면 source 에 파일을 업로드하면, travis 가 이를 감지하고 build후 완성된 파일을 master 에 업로드한다&lt;/p&gt;
+
+    &lt;p&gt;3-5 _config.yml 의 travis 설정 항목&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  
+        &lt;span class=&quot;c1&quot;&gt;# Settings for deploy rake task  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Username and repo of Github repo, e.g.  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# https://github.com/USERNAME/REPO.git  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# username defaults to ENV['GIT_NAME'] used by Travis  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# repo defaults to USERNAME.github.io  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Branch defaults to &quot;source&quot; for USERNAME.github.io  &lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# or &quot;master&quot; otherwise  &lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aska94&lt;/span&gt;  
+        &lt;span class=&quot;ss&quot;&gt;repo: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aska94&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt;  
+        &lt;span class=&quot;ss&quot;&gt;source_branch: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;  
+        &lt;span class=&quot;ss&quot;&gt;destination_brach: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;  
+        &lt;span class=&quot;ss&quot;&gt;destination: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;         
+    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;3-6 Rakefile 의 내용도 확인해본다
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  
+        &lt;span class=&quot;no&quot;&gt;CONFIG&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;YAML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'_config.yml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;  
+        &lt;span class=&quot;no&quot;&gt;USERNAME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CONFIG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  
+        &lt;span class=&quot;no&quot;&gt;REPO&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CONFIG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;repo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  
+        &lt;span class=&quot;no&quot;&gt;SOURCE_BRANCH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CONFIG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;source_branch&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  
+        &lt;span class=&quot;no&quot;&gt;DESTINATION_BRANCH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CONFIG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;destination_brach&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;      
+    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Kisoo Park</name><uri>https://aska94.github.io</uri></author><category term="blog" /><category term="jekyll" /><category term="minimal mistake" /><summary type="html">Setup logs</summary></entry><entry><title type="html">Hello world!</title><link href="https://aska94.github.io/blog/2017/06/04/hello_world" rel="alternate" type="text/html" title="Hello world!" /><published>2017-06-04T00:00:00+09:00</published><updated>2017-06-04T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/04/hello_world</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/04/hello_world">&lt;p&gt;Test article.&lt;/p&gt;
 
 &lt;p&gt;Log.&lt;/p&gt;
 
@@ -29,7 +115,8 @@ jekyll 설명을 찾아보니 CC값이 아니라 TZ 값을 써야 함. &lt;br /&
 FrontMatter에 넣은 타이틀이 이상하게 보임&lt;br /&gt;
  2-1 첫줄에 — 를 넣어야 하는듯&lt;br /&gt;
  2-2 뭘 바꿨는지 모르겠는데, 파일이 삭제돼서 deploy됨&lt;br /&gt;
- 2-3 title 동작함&lt;/p&gt;
+ 2-3 title 동작함
+ 2-4 tags 동작함. layout 을 single 로 해야 함. -&amp;gt; minimal mistake 테마 연구필요.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -41,9 +128,7 @@ layout: post title: Test 2nd writing. tags: jekyll blog test —
 Hello_world
  less than 1 minute read  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Front-Matter 가 동작안함. 흠?&lt;/p&gt;
-
 &lt;ol&gt;
   &lt;li&gt;댓글 문제
 댓글이 안보임.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Kisoo Park</name></author><category term="test" /><category term="jekyll" /><summary type="html">Test article.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Kisoo Park</name><uri>https://aska94.github.io</uri></author><category term="test" /><category term="jekyll" /><summary type="html">Test article.</summary></entry></feed>
