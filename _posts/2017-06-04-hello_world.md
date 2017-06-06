@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Hello world!
-date: 2017-06-06 10:48:10
 ---
 
 Test article. 
