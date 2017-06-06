@@ -19,12 +19,12 @@
 
 
 
-<title>Test2 - Faded</title>
+<title>Hello world! - Faded</title>
 
 
 
 
-<meta name="description" content="layout: posttitle: Test 2nd writing.tags: jekyll blog test—">
+<meta name="description" content="Test article.">
 
 
 
@@ -33,22 +33,22 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Faded">
-<meta property="og:title" content="Test2">
+<meta property="og:title" content="Hello world!">
 
 
-  <link rel="canonical" href="https://aska94.github.io/blog/2017/06/06/test2">
-  <meta property="og:url" content="https://aska94.github.io/blog/2017/06/06/test2">
+  <link rel="canonical" href="https://aska94.github.io/blog/2017/06/04/hello_world">
+  <meta property="og:url" content="https://aska94.github.io/blog/2017/06/04/hello_world">
 
 
 
-  <meta property="og:description" content="layout: posttitle: Test 2nd writing.tags: jekyll blog test—">
+  <meta property="og:description" content="Test article.">
 
 
 
   <meta name="twitter:site" content="@aska94">
-  <meta name="twitter:title" content="Test2">
-  <meta name="twitter:description" content="layout: posttitle: Test 2nd writing.tags: jekyll blog test—">
-  <meta name="twitter:url" content="https://aska94.github.io/blog/2017/06/06/test2">
+  <meta name="twitter:title" content="Hello world!">
+  <meta name="twitter:description" content="Test article.">
+  <meta name="twitter:url" content="https://aska94.github.io/blog/2017/06/04/hello_world">
 
   
     <meta name="twitter:card" content="summary">
@@ -70,7 +70,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2017-06-06T00:00:00+09:00">
+  <meta property="article:published_time" content="2017-06-04T00:00:00+09:00">
 
 
 
@@ -270,15 +270,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Test2">
-    <meta itemprop="description" content="layout: posttitle: Test 2nd writing.tags: jekyll blog test—">
-    <meta itemprop="datePublished" content="June 06, 2017">
+    <meta itemprop="headline" content="Hello world!">
+    <meta itemprop="description" content="Test article.">
+    <meta itemprop="datePublished" content="June 04, 2017">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Test2
+          <h1 class="page__title" itemprop="headline">Hello world!
 </h1>
           
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
@@ -293,15 +293,47 @@
       
 
       <section class="page__content" itemprop="text">
-        
-<hr />
-<p>layout: post
-title: Test 2nd writing.
-tags: jekyll blog test
-—</p>
+        <p>Test article.</p>
 
-<p>ok. It’s 2nd writing. 
-can you see it?</p>
+<p>Log.</p>
+
+<ol>
+  <li>
+    <p>한글확인
+새글이 등록되지 않는 문제있음<br />
+-&gt; Timezone 이슈로 보임. 하루 전날 시간으로 마킹하면 올라감.<br />
+jekyll 설명을 찾아보니 CC값이 아니라 TZ 값을 써야 함. <br />
+난 한국이니까 Asia/Seoul 이면 될까? <br />
+테스트필요함.<br />
+ 1-1. Asia/Seould 설정후에도 업데이트 시간은 변화없음. <br />
+     파일 이름만 보고 있는것 같음.<br />
+ 1-2. post의 date를 override 해서 시간을 바꿀 수 있다고 함. <br />
+ 1-3. 편의를 위해 Visual Studio Code 에서 Insert Time String 을 설치함. <br />
+     단축키는 Ctrl + Shift + I<br />
+ 1-4. Visual Studio Code 에서 미리보기사용하면 편함. 개행은 라인끝에 space 2개</p>
+  </li>
+  <li>
+    <p>타이틀 문제<br />
+FrontMatter에 넣은 타이틀이 이상하게 보임<br />
+ 2-1 첫줄에 — 를 넣어야 하는듯<br />
+ 2-2 뭘 바꿨는지 모르겠는데, 파일이 삭제돼서 deploy됨</p>
+  </li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+Test2
+ less than 1 minute read
+layout: post title: Test 2nd writing. tags: jekyll blog test —
+
+Hello_world
+ less than 1 minute read  </code></pre></figure>
+
+<p>Front-Matter 가 동작안함. 흠?</p>
+
+<ol>
+  <li>댓글 문제
+댓글이 안보임.</li>
+</ol>
 
         
       </section>
@@ -312,7 +344,7 @@ can you see it?</p>
 
 
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-06-06T00:00:00+09:00">June 06, 2017</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-06-04T00:00:00+09:00">June 04, 2017</time></p>
         
       </footer>
 
@@ -321,24 +353,24 @@ can you see it?</p>
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=aska94&text=Test2 https://aska94.github.io/blog/2017/06/06/test2" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=aska94&text=Hello world! https://aska94.github.io/blog/2017/06/04/hello_world" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://aska94.github.io/blog/2017/06/06/test2" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://aska94.github.io/blog/2017/06/04/hello_world" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://plus.google.com/share?url=https://aska94.github.io/blog/2017/06/06/test2" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+  <a href="https://plus.google.com/share?url=https://aska94.github.io/blog/2017/06/04/hello_world" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://aska94.github.io/blog/2017/06/06/test2" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://aska94.github.io/blog/2017/06/04/hello_world" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="https://aska94.github.io/blog/2017/06/04/hello_world" class="pagination--pager" title="Hello world!
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="https://aska94.github.io/blog/2017/06/06/test2" class="pagination--pager" title="Test2
+">Next</a>
     
   </nav>
 
