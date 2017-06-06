@@ -1,6 +1,7 @@
 ---
 title: Hello world!
 layout: post
+tags: [test, jekyll]
 ---
 
 Test article. 
