@@ -26,6 +26,7 @@ FrontMatter에 넣은 타이틀이 이상하게 보임
     2-1 첫줄에 --- 를 넣어야 하는듯  
     2-2 뭘 바꿨는지 모르겠는데, 파일이 삭제돼서 deploy됨  
     2-3 title 동작함
+    2-4 tags 동작함. layout 을 single 로 해야 함. -> minimal mistake 테마 연구필요.  
 
 
 {% highlight html %}  
@@ -37,7 +38,7 @@ Hello_world
  less than 1 minute read  
 {% endhighlight %}
 
-Front-Matter 가 동작안함. 흠?  
+
 
 
 3. 댓글 문제
