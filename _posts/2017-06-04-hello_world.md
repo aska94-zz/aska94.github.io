@@ -1,6 +1,6 @@
 ---
 title: Hello world!
-layout: post
+layout: single
 tags: [test, jekyll]
 ---
 
