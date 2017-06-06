@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-05T16:26:48+00:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Hello_world</title><link href="https://aska94.github.io/blog/2017/06/04/hello_world" rel="alternate" type="text/html" title="Hello_world" /><published>2017-06-04T00:00:00+00:00</published><updated>2017-06-04T00:00:00+00:00</updated><id>https://aska94.github.io/blog/2017/06/04/hello_world</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/04/hello_world">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-06T01:13:17+00:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Test2</title><link href="https://aska94.github.io/blog/2017/06/06/test2" rel="alternate" type="text/html" title="Test2" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>https://aska94.github.io/blog/2017/06/06/test2</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/06/test2">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: Test 2nd writing.
+tags: jekyll blog test
+—&lt;/p&gt;
+
+&lt;p&gt;ok. It’s 2nd writing. 
+can you see it?&lt;/p&gt;</content><author><name>Kisoo Park</name></author><summary type="html">layout: post title: Test 2nd writing. tags: jekyll blog test —</summary></entry><entry><title type="html">Hello_world</title><link href="https://aska94.github.io/blog/2017/06/04/hello_world" rel="alternate" type="text/html" title="Hello_world" /><published>2017-06-04T00:00:00+00:00</published><updated>2017-06-04T00:00:00+00:00</updated><id>https://aska94.github.io/blog/2017/06/04/hello_world</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/04/hello_world">&lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;Test article.&lt;/p&gt;</content><author><name>Kisoo Park</name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Test article.&lt;/p&gt;
+
+&lt;p&gt;Log.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;한글확인
+새글이 등록되지 않는 문제있음
+-&amp;gt; Timezone 이슈로 보임. 하루 전날 시간으로 마킹하면 올라감.
+jekyll 설명을 찾아보니 CC값이 아니라 TZ 값을 써야 함. 
+난 한국이니까 Asia/Seoul 이면 될까? 
+테스트필요함.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;타이틀 문제
+헤더에 넣은 타이틀이 이상하게 보임&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;댓글 문제
+댓글이 안보임.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Kisoo Park</name></author><summary type="html"></summary></entry></feed>
