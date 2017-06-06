@@ -70,14 +70,14 @@ repository setting > GitHub Pages 항목을 보면 Theme chooser 라고 Jekyll t
         source_branch: source  
         destination_brach: master  
         destination: ../gh-pages/         
-    {% endhighlight %}  
+    {% endhighlight %} 
 
     3-6 Rakefile 의 내용도 확인해본다
-    
+
     {% highlight ruby %}  
         CONFIG = YAML.load(File.read('_config.yml'))  
         USERNAME = CONFIG["username"]  
         REPO = CONFIG["repo"]  
         SOURCE_BRANCH = CONFIG["source_branch"]  
         DESTINATION_BRANCH = CONFIG["destination_brach"]      
-    {% endhighlight}  
+    {% endhighlight %}
