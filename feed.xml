@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-06T11:22:43+09:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Test2</title><link href="https://aska94.github.io/blog/2017/06/06/test2" rel="alternate" type="text/html" title="Test2" /><published>2017-06-06T00:00:00+09:00</published><updated>2017-06-06T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/06/test2</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/06/test2">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://aska94.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aska94.github.io/" rel="alternate" type="text/html" /><updated>2017-06-06T11:31:32+09:00</updated><id>https://aska94.github.io/</id><title type="html">Faded</title><subtitle>test codes</subtitle><author><name>Kisoo Park</name></author><entry><title type="html">Test2</title><link href="https://aska94.github.io/blog/2017/06/06/test2" rel="alternate" type="text/html" title="Test2" /><published>2017-06-06T00:00:00+09:00</published><updated>2017-06-06T00:00:00+09:00</updated><id>https://aska94.github.io/blog/2017/06/06/test2</id><content type="html" xml:base="https://aska94.github.io/blog/2017/06/06/test2">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title: Test 2nd writing.
 tags: jekyll blog test
@@ -21,14 +21,15 @@ jekyll 설명을 찾아보니 CC값이 아니라 TZ 값을 써야 함. &lt;br /&
      파일 이름만 보고 있는것 같음.&lt;br /&gt;
  1-2. post의 date를 override 해서 시간을 바꿀 수 있다고 함. &lt;br /&gt;
  1-3. 편의를 위해 Visual Studio Code 에서 Insert Time String 을 설치함. &lt;br /&gt;
-     단축키는 Ctrl + Shift + I&lt;br /&gt;
+     단축키는 Ctrl + Shift + I 
  1-4. Visual Studio Code 에서 미리보기사용하면 편함. 개행은 라인끝에 space 2개&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;타이틀 문제&lt;br /&gt;
 FrontMatter에 넣은 타이틀이 이상하게 보임&lt;br /&gt;
  2-1 첫줄에 — 를 넣어야 하는듯&lt;br /&gt;
- 2-2 뭘 바꿨는지 모르겠는데, 파일이 삭제돼서 deploy됨&lt;/p&gt;
+ 2-2 뭘 바꿨는지 모르겠는데, 파일이 삭제돼서 deploy됨&lt;br /&gt;
+ 2-3 title 동작함&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
