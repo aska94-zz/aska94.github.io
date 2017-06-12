@@ -10,8 +10,7 @@ Setup logs
 
 들어가며
 1. 유행은 좀 지났지만 어쨌든 개발자 나부랭이로써 github.io 에 개발블로그를 하나 만들어보고 싶었다. 
-2. 회사 정책상 그간 github은 못썼지만, 이제 
-쓰게 해준다니 열심히 써보자. 
+2. 회사 정책상 그간 github은 못썼지만, 이제 쓰게 해준다니 열심히 써보자. 
 
 준비
 1. github.com 의 문서를 읽어보았다. 
@@ -53,7 +52,7 @@ repository setting > GitHub Pages 항목을 보면 Theme chooser 라고 Jekyll t
     3-3 travis secure 를 만들려면 Local 에 실행파일을 설치해야 한다. repository 별로 secure 값이 다르므로, repository 를 재생성한다든지 하면 다시 만들어야 된다
 
     3-4 travis 세팅을 하고 나면 repository 에 파일을 올려야 하는데, source branch 를 만들어 업로드하고, repository setting의 Branch 항목에서 source 를 default 로 설정한다.  
-    이렇게 하면 source 에 파일을 업로드하면, travis 가 이를 감지하고 build후 완성된 파일을 master 에 업로드한다
+        이렇게 하면 source 에 파일을 업로드하면, travis 가 이를 감지하고 build후 완성된 파일을 master 에 업로드한다
 
     3-5 _config.yml 의 travis 설정 항목
 
@@ -70,7 +69,7 @@ repository setting > GitHub Pages 항목을 보면 Theme chooser 라고 Jekyll t
         source_branch: source  
         destination_brach: master  
         destination: ../gh-pages/         
-    {% endhighlight %} 
+    {% endhighlight %}  
 
     3-6 Rakefile 의 내용도 확인해본다
 
